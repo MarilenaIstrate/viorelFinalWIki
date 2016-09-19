@@ -104,6 +104,8 @@ public class WikiIndexerController {
         metadataDTO.setVersion(version);
 
         try {
+            System.out.println("******************************************************");
+            System.out.println("******************************************************");
             System.out.println("my ip = " + InetAddress.getLocalHost().getHostAddress());
             if (InetAddress.getLocalHost().getHostAddress().equals(IP)) {
                 metadataDTO.setEnvironment(1);
