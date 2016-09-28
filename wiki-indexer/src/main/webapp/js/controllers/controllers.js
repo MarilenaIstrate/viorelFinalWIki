@@ -366,7 +366,7 @@ function validate(string) {
 
 
                     if (data.environment === 0) {
-                        $scope.environmentObj.color = "white";
+                        $scope.environmentObj.color = "blue";
                         $scope.environmentObj.backgroundColor = "gray";
                     }
                 });
